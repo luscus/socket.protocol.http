@@ -9,7 +9,7 @@ var zmqLib = require('../lib/socket.protocol.http.js'),
     },
     server = {
       name: 'server',
-      host: ['localhost', 'CL-CNU341CJSR'],
+      host: ['CL-CNU341CJSR'],
       pattern: 'rep',
       port: [22000, 22001]
     };
@@ -26,8 +26,8 @@ var zmqLib = require('../lib/socket.protocol.http.js'),
 var socket = zmqLib(client);
 
 socket.on('message', function (packet, clusterSource) {
-  console.log('<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
-  console.log('response at : ', new Date().toISOString(), 'from', clusterSource, packet);
+  //console.log('<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
+  //console.log('response at : ', new Date().toISOString(), 'from', clusterSource, packet);
 });
 
 socket.connect(server);
