@@ -18,7 +18,8 @@
     "restify": "2.8.4",
     "package.root": "0.2.0",
     "assert-plus": "0.1.5",
-    "socket.model.client": "0.0.1"
+    "socket.model.client": "0.0.1",
+    "socket.model.server": "0.0.1"
   },
   "devDependencies": {
     "grunt": "0.4.5",
