@@ -34,5 +34,5 @@ socket.connect(server);
 //socket.connect(server.protocol+'://localhost:'+22001);
 
 setInterval(function () {
-  socket.send({timestamp: new Date().toISOString()})
+  socket.send({timestamp: new Date().toISOString()});
 }, 1000);
