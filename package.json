@@ -13,13 +13,14 @@
     "microservice"
   ],
   "dependencies": {
-    "socket.lib.tools": "0.0.2",
     "node.extend": "1.1.2",
     "restify": "2.8.4",
     "package.root": "0.2.0",
     "assert-plus": "0.1.5",
+    "socket.lib.tools": "0.0.2",
     "socket.model.client": "0.0.1",
-    "socket.model.server": "0.0.1"
+    "socket.model.server": "0.0.1",
+    "socket.base": "0.0.1"
   },
   "devDependencies": {
     "grunt": "0.4.5",
