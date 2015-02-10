@@ -26,9 +26,11 @@ var socket = zmqLib(server);
 
 var responseCount = 0;
 
-socket.bind(function (packet, meta, raw) {
+socket.bind(function (data, meta, raw) {
   console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-  console.log('resquest: ', packet.data);
+  console.log('raw:    ', raw);
+  console.log('meta:   ', meta);
+  console.log('data: ', data);
   
   if (responseCount === 400) {
     process.exit();
