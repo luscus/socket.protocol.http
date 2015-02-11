@@ -26,8 +26,8 @@ var zmqLib = require('../lib/socket.protocol.http.js'),
 var socket = zmqLib(client);
 
 socket.on('message', function (packet, clusterSource) {
-  //console.log('<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
-  //console.log('response at : ', new Date().toISOString(), 'from', clusterSource, packet);
+  console.log('<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
+  console.log('response at : ', new Date().toISOString(), 'from', clusterSource, packet.header);
 });
 
 socket.connect(server);
