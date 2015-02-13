@@ -10,7 +10,7 @@ var zmqLib = require('../lib/socket.protocol.http.js'),
     server = {
       name: 'server',
       pattern: 'rep',
-      usePort: false,
+      //useRootHash: false,
       port: [22000, 22001]
     };
 
@@ -32,11 +32,11 @@ socket.bind(function (data, meta, raw) {
   console.log('raw:    ', raw);
   console.log('meta:   ', meta);
   console.log('data: ', data);
-  
+
   if (responseCount === 400) {
     process.exit();
   }
-  
+
   responseCount += 1;
   return meta;
 });

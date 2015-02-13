@@ -5,12 +5,13 @@ var zmqLib = require('../lib/socket.protocol.http.js'),
     },
     client = {
       name: 'client',
+      useRootHash: true,
       pattern: 'req'
     },
     server = {
       name: 'server',
-      host: ['CL-CNU341CJSR'],
-      usePath: false,
+      host: ['localhost'],
+      //useRootHash: false,
       pattern: 'rep',
       port: [22000, 22001]
     };
