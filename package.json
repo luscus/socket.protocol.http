@@ -17,7 +17,7 @@
     "restify": "2.8.4",
     "package.root": "0.2.0",
     "assert-plus": "0.1.5",
-    "socket.base": "0.0.9"
+    "socket.base": "0.0.10"
   },
   "devDependencies": {
     "grunt": "0.4.5",
