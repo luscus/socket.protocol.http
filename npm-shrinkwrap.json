@@ -1,6 +1,6 @@
 {
   "name": "socket.protocol.http",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "dependencies": {
     "assert-plus": {
       "version": "0.1.5",
@@ -160,7 +160,7 @@
         },
         "lru-cache": {
           "version": "2.5.0",
-          "from": "lru-cache@^2.5.0",
+          "from": "lru-cache@2",
           "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-2.5.0.tgz"
         },
         "mime": {
@@ -237,8 +237,8 @@
       }
     },
     "socket.base": {
-      "version": "0.0.11",
-      "from": "socket.base@0.0.11",
+      "version": "0.0.12",
+      "from": "socket.base@0.0.12",
       "dependencies": {
         "socket.lib.tools": {
           "version": "0.0.3",
@@ -265,9 +265,8 @@
           }
         },
         "socket.model.client": {
-          "version": "0.0.14",
-          "from": "https://registry.npmjs.org/socket.model.client/-/socket.model.client-0.0.14.tgz",
-          "resolved": "https://registry.npmjs.org/socket.model.client/-/socket.model.client-0.0.14.tgz",
+          "version": "0.0.15",
+          "from": "socket.model.client@0.0.15",
           "dependencies": {
             "socket.packet.base": {
               "version": "0.0.3",
