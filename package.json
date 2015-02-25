@@ -17,9 +17,10 @@
     "restify": "2.8.4",
     "package.root": "0.2.0",
     "assert-plus": "0.1.5",
-    "socket.base": "0.0.10"
+    "socket.base": "0.0.11"
   },
   "devDependencies": {
+    "packet.format.latencies": "0.0.1",
     "grunt": "0.4.5",
     "grunt-license-report": "0.0.8",
     "grunt-contrib-jshint": "0.11.0",
