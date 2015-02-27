@@ -10,7 +10,7 @@ var zmqLib = require('../lib/socket.protocol.http.js'),
     server = {
       name: 'server',
       pattern: 'rep',
-      format: 'packet.format.latencies',
+      format: 'packet.format.raw',
       //useRootHash: false,
       port: [22000, 22001]
     };
@@ -31,6 +31,7 @@ var responseCount = 0;
 socket.bind(function (data, meta, raw) {
   console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
   console.log('data: ', data);
+  console.log('meta: ', meta);
 
   if (responseCount === 400) {
     process.exit();

@@ -12,7 +12,7 @@ var zmqLib = require('../lib/socket.protocol.http.js'),
       name: 'server',
       host: ['localhost'],
       //useRootHash: false,
-      format: 'packet.format.latencies',
+      format: 'packet.format.raw',
       pattern: 'rep',
       port: [22000, 22001]
     };
