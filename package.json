@@ -1,6 +1,6 @@
 {
   "name": "socket.protocol.http",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "homepage": "https://github.com/luscus/socket.protocol.http",
   "author": "https://github.com/luscus/socket.protocol.http/graphs/contributors",
   "description": "Wraps the request and express packages to enable a simple usage of HTTP sockets",
