@@ -1,6 +1,6 @@
 {
   "name": "socket.protocol.http",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "homepage": "https://github.com/luscus/socket.protocol.http",
   "author": "https://github.com/luscus/socket.protocol.http/graphs/contributors",
   "description": "Wraps the request and express packages to enable a simple usage of HTTP sockets",
@@ -17,7 +17,7 @@
     "restify": "2.8.4",
     "package.root": "0.2.0",
     "assert-plus": "0.1.5",
-    "socket.base": "0.0.16"
+    "socket.base": "0.0.17"
   },
   "devDependencies": {
     "packet.format.latencies": "0.0.1",
