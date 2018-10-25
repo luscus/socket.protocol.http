@@ -14,7 +14,7 @@
   ],
   "dependencies": {
     "node.extend": "1.1.2",
-    "restify": "2.8.4",
+    "restify": "4.3.4",
     "package.root": "0.2.0",
     "assert-plus": "0.1.5",
     "socket.base": "0.0.17"
