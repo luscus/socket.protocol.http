@@ -13,7 +13,7 @@
     "microservice"
   ],
   "dependencies": {
-    "node.extend": "1.1.2",
+    "node.extend": "1.1.7",
     "restify": "2.8.4",
     "package.root": "0.2.0",
     "assert-plus": "0.1.5",
